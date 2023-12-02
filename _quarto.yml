@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "NOAA stock assessment improvement roadmap" 
+  site-url: "https://nathanvaughan-noaa.github.io/Roadmap/" 
+  repo-url: "https://github.com/nathanvaughan-NOAA/Roadmap"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
