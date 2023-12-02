@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rmarkdown.html</loc>
-    <lastmod>2023-05-24T22:16:59.066Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/publishing.html</loc>
+    <lastmod>2023-12-02T21:39:45.817Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rendering.html</loc>
-    <lastmod>2023-05-24T22:17:01.242Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/rmarkdown.html</loc>
+    <lastmod>2023-12-02T21:39:45.221Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/add-content.html</loc>
-    <lastmod>2023-05-24T22:17:01.585Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/customizing.html</loc>
+    <lastmod>2023-12-02T21:39:43.621Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/customizing.html</loc>
-    <lastmod>2023-05-24T22:17:01.921Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/code.html</loc>
+    <lastmod>2023-12-02T21:39:43.045Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
-    <lastmod>2023-05-24T22:17:02.313Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/index.html</loc>
+    <lastmod>2023-12-02T21:39:41.245Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
-    <lastmod>2023-05-24T22:17:02.649Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/add-content.html</loc>
+    <lastmod>2023-12-02T21:39:43.329Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
-    <lastmod>2023-05-24T22:17:03.737Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/rendering.html</loc>
+    <lastmod>2023-12-02T21:39:43.917Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
-    <lastmod>2023-05-24T22:17:04.093Z</lastmod>
+    <loc>https://nathanvaughan-noaa.github.io/Roadmap/content/acknowledgements.html</loc>
+    <lastmod>2023-12-02T21:39:45.485Z</lastmod>
   </url>
 </urlset>
