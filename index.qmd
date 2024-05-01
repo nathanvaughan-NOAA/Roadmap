@@ -1,10 +1,12 @@
 ---
-title: "NOAA-SEFSC Gulf of Mexico stock assessment improvement roadmap"
-subtitle: "A reference page to plan and track research effort to improve stock assessment advice in the Gulf of Mexico"
+title: "A stock assessment improvement roadmap for the Gulf of Mexico"
+
 page-layout: full
 ---
 
-This website is intended to provide a living roadmap for planning and tracking research and development effort towards improving stock assessment methods and workflows in the Gulf of Mexico. This roadmap will maintain up to date records of ongoing and planned research in NOAA's Southeast Fisheries Science Center Gulf of Mexico sustainable fisheries branch with a particular focus on research efforts carried out under a 5 year RESTORE FFO 2023 Actionable Science grant awarded in collaboration with Vaughan Analytics <https://restoreactscienceprogram.noaa.gov/projects/building-next-generation-fishery-forecasting-capacity>. Providing details of ongoing and planned research is intended to facilitate collaboration opportunities with research efforts in other regions and agencies as promoted through NOAA's NMFS Open Science intiative <https://nmfs-opensci.github.io/>. Additionally this roadmap is intended to facilitate improved stakeholder and user awareness of ongoing research efforts and priorities and provide an avenue for feedback and discussion. 
+This website is intended to provide a living roadmap for planning and tracking research and development effort towards improving stock assessment methods and workflows in the Gulf of Mexico. This roadmap will maintain a dynamic record of ongoing and planned research carried out under a [5 year RESTORE FFO 2023 Actionable Science grant](https://restoreactscienceprogram.noaa.gov/projects/building-next-generation-fishery-forecasting-capacity). 
+
+Providing a dynamic accounting of ongoing and planned research is intended to facilitate, agile development, reposonsive research prioritization, and collaboration opportunities with other research efforts as promoted through the [NMFS Open Science intiative](https://nmfs-opensci.github.io/). This roadmap is also intended to facilitate improved stakeholder and user awareness and engagement with ongoing research efforts and priorities, providing a basis for feedback and discussion. 
 
 ### Disclaimer
 

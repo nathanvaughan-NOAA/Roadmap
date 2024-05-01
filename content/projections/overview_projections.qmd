@@ -1,0 +1,17 @@
+---
+title: Projections
+---
+
+## Overview
+
+ Stock assessment projections represent the primary management output of the stock assessment process. Projections are used to identify overfishing limits and acceptable biological catches using the stock assessment population dynamics model. However, producing catch limit projections requires a large number of assumptions to be made that are not informed by observed data. These assumptions include the allocation of catches between different fleets, fleet selectivity and retention patterns, the total catches landed each year, annual recruitment levels, annual natural mortality, and future changes in any estimated or fixed model parameters. The difficulty of accurate predictions of these assumed values is increased by the influence of fishery regulation changes and climate induced environmental change. 
+ This project will develop and test improved methods for making a number these assumptions. Research on this is intended to be completed over the first 2-3 years of the project and will focus on key areas of improvement identified during project planing including:
+
+
+1) Incorporating future recruitment rate trends and uncertainty into projections. 
+
+2) Adjusting stock assessment projections to reflect the compounding uncertainty associated with catch based vs effort based fishing limits. 
+
+3) Quantifying the potential impact of future episodic Red Tide mortality events on management benchmarks and reference points.  
+
+4) Quantifying the potential impact of changes in fishery catch limits on discarding rates and incorporating a feedback method to identify optimal catch limits accounting for this impact. 

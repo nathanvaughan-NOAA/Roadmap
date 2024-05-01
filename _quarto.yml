@@ -3,7 +3,7 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA stock assessment improvement roadmap" 
+  title: "A stock assessment improvement roadmap for the Gulf of Mexico" 
   site-url: "https://nathanvaughan-noaa.github.io/Roadmap/" 
   repo-url: "https://github.com/nathanvaughan-NOAA/Roadmap"
   repo-actions: [edit, source, issue]
@@ -14,35 +14,66 @@ website:
     left: "&copy; CC-1.0"
   
   sidebar:
-    background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    background: "#c7edee"
+    logo: content/images/Fish_Logo.png
     favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
-      - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://restoreactscienceprogram.noaa.gov/
+        text: "RESTORE Science Program"
 
     style: "docked"
     search: true
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
+        text: Home  
+      - text: "---"
+      - section: "Background"
+        contents:
+        - href: content/background/overview_background.qmd
+          text: Overview
+        - href: content/background/timeline_background.qmd
+          text: Timeline
+      - text: "---"
+      - section: "Interim Assessments"
+        contents:
+        - href: content/interim/overview_interim.qmd
+          text: Overview
+        - href: content/interim/existing.qmd
+          text: Existing Methods
+        - href: content/interim/multi_factor.qmd
+          text: Multi-Factor method 
+      - text: "---"
+      - section: "Projections"
+        contents:
+        - href: content/projections/overview_projections.qmd
+          text: Overview          
+        - href: content/projections/Recruitment.qmd
+          text: Recruitment uncertainty        
+        - href: content/projections/Catch_limits.qmd
+          text: Catch based management   
+        - href: content/projections/Red_tide.qmd
+          text: Episodic mortality       
+        - href: content/projections/Discards.qmd
+          text: Discard mortality
+      - text: "---"
+      - section: "Model Interpretation"
+        contents:
+        - href: content/interpretation/overview_interpretation.qmd
+          text: Overview
+        - href: content/interpretation/data_influence.qmd
+          text: Data Influence
+        - href: content/interpretation/model_uncertainty.qmd
+          text: Model Uncertainty
+      - text: "---"
+      - section: "Scalable Models"
+        contents:
+        - href: content/scalability/overview_scalability.qmd
+          text: Overview
+      - text: "---"
       - href: content/acknowledgements.qmd
         text: Acknowledgements
 

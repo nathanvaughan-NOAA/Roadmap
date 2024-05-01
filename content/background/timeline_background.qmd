@@ -1,0 +1,38 @@
+---
+title: Background
+---
+
+## Current research plans 
+
+This roadmap has been initially developed to track progress of a [NOAA RESTORE](https://restoreactscienceprogram.noaa.gov/) funded research project to achieve actionable improvements Gulf of Mexico ecosystem management. This [project](https://restoreactscienceprogram.noaa.gov/projects/building-next-generation-fishery-forecasting-capacity) will for an initial 5 years focus on developing and testing methods to improve uncertainty quantification, accuracy, and throughput of stock assessment advice for fisheries management. 
+
+The timeline for this project is expected to change as research priorities shift to accommodate the real-time needs of fisheries managers in the Gulf and will be periodically updated to reflect these changes. Research priorities are expected to primarily fall into four research focus areas:
+
+- Interim Assessment Methods Development
+- Stock Assessment Projection Improvement
+- Model Interpretation and Uncertainty Quantification
+- Optimizing Model Complexity
+
+
+
+**Current Provisional Timeline**
+
+::::{}
+| Research Focus Area | Research Activity | Planned Start Date | Planned End Date |
+|------------|----------------|---------|---------|
+| **Interim Assessment Methods** | - Design hybrid approach and simulation testing plan | January 2024 | May 2024 |
+|| - Perform simulation testing | April 2024 | October 2024 |
+|| - Report results and facilitate implementation | August 2024 | July 2025 |
+| **Projection Methods Improvement** | - Select optimal methods based on management priorities | October 2023 | Ongoing |
+|| - Develop simulation testing and implementation software | March 2024 | Ongoing |
+|| - Perform simulation testing | July 2024 | Ongoing |
+|| - Report results and facilitate implementation | September 2024 | Ongoing |
+| **Model Interpretation and Uncertainty Quantification** | - Develop model gradient extraction methods | 2024-2025 | TBD |
+|| - Develop ensemble sampling methods for Stock Synthesis | 2025-2026 | TBD |
+|| - Perform simulation testing of methods | 2026-2027 | TBD |
+|| - Report results and facilitate implementation | 2026-2027 | TBD |
+| **Optimizing Model Complexity** | - Develop software for dynamic assessment approach | 2026-2027 | TBD |
+|| - Develop simulation testing framework | 2027 | TBD |
+|| - Perform simulation testing | 2027-2028 | TBD |
+|| - Report results and facilitate implementation | 2028 | TBD |
+::::

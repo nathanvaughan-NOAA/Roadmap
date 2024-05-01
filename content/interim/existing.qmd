@@ -1,0 +1,39 @@
+---
+title: "Interim Assessments"
+---
+
+## How do they work
+
+  For the purposes of understanding the stock assessment process it can be helpful to separate time into three general periods:
+
+1) The historic model estimation period. This is the period used in full benchmark stock assessments to estimate the fishery and population model parameters. These parameters are then used to simulate future states of nature and estimate sustainable fishing limits.
+
+2) An interregnum period. These are years following the benchmark model end year but prior to the current year or first year in which management action could be enacted. Some but usually not all data sources used in the benchmark model may be available for years in this period. When benchmark stock assessments are performed recent catches or estimates of these values in included in this period. This period is usually 2-3 years long at the time a benchmark stock assessment is completed. 
+
+3) A true projection period. This period includes all future years for which no data are available. Expected conditions in this period are usually assumed to be stationary at estimated average levels from the benchmark stock assessment. The benchmark assessment model is used to simulation population response to fishing pressure in this period to estimate sustainable catch limit targets.
+
+![assessment](images/assessment_parts.PNG)
+
+Using this framework it can be seen that after a benchmark assessment is completed the interregnum period will grow as time passes and new data is collected. Interim assessments are intended to update benchmark assessment catch limit projections using new data. By not re-estimating the benchmark population dynamics model these methods require much less time to produce than a new benchmark assessment. 
+
+## Projection updates
+
+One approach to rapidly updating stock assessment advice is integrating updated landings data and recalculating catch projection. This process is identical to performing projections in a benchmark assessment only with an extended interregnum period that includes the additional years of landings data available. This approach is useful when achieved fishery landings diverge from the predicted catch limits estimated in the original benchmark stock assessment. This divergence could be due to final quotas being set at a lower value than the maximum model estimate, a fishery being unable to meet it's maximum quota, or landings exceeding the target quota before the fishery was closed. Advantages of this approach are it's simplicity, speed of implementation, and incorporation within existing stock assessment protocols. The primary disadvantage of this method is that it is unable to account for changes in the population due to reasons other than total landings. Given that deviations due to episodic mortality events, climate-induced change, and recruitment variability are of increasing concern this method has recently been replaced in the Gulf by index based approaches. 
+
+## Index based approaches
+
+Index based interim assessments approaches are relatively new in the Gulf of Mexico. They are derived from the logic that annual catch limits ($ACL_{y}$) are calculated from the total biomass availablit to the fishery ($B_{y}$) multiplied by the constant proportion of that biomass that can be removed each year ($F_{target}$).   
+
+$$ACL_{y} = F_{target}*B_{y}$$
+
+If an annual index of relative abundance ($I_{y}$) is available that is proportional to total available biomass.    
+
+$$I_{y} = q*B_{y}$$
+It is possible to use the catch limit ($ACL_{ref}$) and index ($I_{ref}$) values from a reference year together with recent index ($I_{y}$) to estimate a new catch limit target ($ACL_{y+1}$)
+
+$$ACL_{y+1} = C_{ref}*(I_{y}/I_{ref})$$
+These approaches are based on research by [Huynh et al 2020](https://onlinelibrary.wiley.com/doi/abs/10.1111/faf.12453) that developed and tested these approaches and found them to significantly improve management outcomes relative to status-quo fixed catch limits. 
+
+Implementing these methods in the Gulf of Mexico has been hindered by the need to validate the suitability of potential indices before they can be used. This validation is critical for practical application as the approach assumes that indices reflect an unbiased estimate of total population abundance $B_{y}$. In practice, available abundance indices are often impacted by non-representative gear and spatial selectivity effects. These observations may not track the true total population abundance providing unreliable estimates of sustainable catch limits. These methods also utilize a single index of abundance to update catch advice limiting their utility further in the Gulf where stock assessment models are frequently informed by many indices. 
+
+Due to these limitations we intend to develop a method for quantifying the predictive accuracy and precision of existing indices of abundance for estimating optimum catch limits. We will also assess an approach for integrating multiple indices and update stock assessment projections to provide unified interim management advice.       
