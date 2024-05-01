@@ -1,8 +1,0 @@
----
-title: Projections
----
-
-## Accounting for Catch based managment limits
-
-The compounding impact of catch based management on over fishing limits is not accounted for in current projection approaches that specify fixed annual fishing mortality rates (F) to achieve OFL targets and calculate ABC using the model estimated uncertainty in the annual catch achieved at the specified F. The impact of this is to underestimate uncertainty in sustainable yield and overestimate long term ABC targets. This can cause unrealistic expectations for future yields and negatively impact stakeholder trust when they are continually not achieved. In order to better incorporate true catch-based management we will develop and test candidate methods that specify fixed annual catches to achieve OFL targets and calculate ABC by combining the uncertainties in the OFL F rates estimated to achieve population biomass targets. 
-

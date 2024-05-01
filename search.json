@@ -1,0 +1,562 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A stock assessment improvement roadmap for the Gulf of Mexico",
+    "section": "",
+    "text": "This website is intended to provide a living roadmap for planning and tracking research and development effort towards improving stock assessment methods and workflows in the Gulf of Mexico. This roadmap will maintain a dynamic record of ongoing and planned research carried out under a 5 year RESTORE FFO 2023 Actionable Science grant.\nProviding a dynamic accounting of ongoing and planned research is intended to facilitate, agile development, reposonsive research prioritization, and collaboration opportunities with other research efforts as promoted through the NMFS Open Science intiative. This roadmap is also intended to facilitate improved stakeholder and user awareness and engagement with ongoing research efforts and priorities, providing a basis for feedback and discussion.\n\nDisclaimer\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/projections/overview_projections.html",
+    "href": "content/projections/overview_projections.html",
+    "title": "Projections",
+    "section": "",
+    "text": "Stock assessment projections represent the primary management output of the stock assessment process. Projections are used to identify overfishing limits and acceptable biological catches using the stock assessment population dynamics model. However, producing catch limit projections requires a large number of assumptions to be made that are not informed by observed data. These assumptions include the allocation of catches between different fleets, fleet selectivity and retention patterns, the total catches landed each year, annual recruitment levels, annual natural mortality, and future changes in any estimated or fixed model parameters. The difficulty of accurate predictions of these assumed values is increased by the influence of fishery regulation changes and climate induced environmental change. This project will develop and test improved methods for making a number these assumptions. Research on this is intended to be completed over the first 2-3 years of the project and will focus on key areas of improvement identified during project planing including:\n\nIncorporating future recruitment rate trends and uncertainty into projections.\nAdjusting stock assessment projections to reflect the compounding uncertainty associated with catch based vs effort based fishing limits.\nQuantifying the potential impact of future episodic Red Tide mortality events on management benchmarks and reference points.\nQuantifying the potential impact of changes in fishery catch limits on discarding rates and incorporating a feedback method to identify optimal catch limits accounting for this impact.",
+    "crumbs": [
+      "Projections",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/projections/overview_projections.html#overview",
+    "href": "content/projections/overview_projections.html#overview",
+    "title": "Projections",
+    "section": "",
+    "text": "Stock assessment projections represent the primary management output of the stock assessment process. Projections are used to identify overfishing limits and acceptable biological catches using the stock assessment population dynamics model. However, producing catch limit projections requires a large number of assumptions to be made that are not informed by observed data. These assumptions include the allocation of catches between different fleets, fleet selectivity and retention patterns, the total catches landed each year, annual recruitment levels, annual natural mortality, and future changes in any estimated or fixed model parameters. The difficulty of accurate predictions of these assumed values is increased by the influence of fishery regulation changes and climate induced environmental change. This project will develop and test improved methods for making a number these assumptions. Research on this is intended to be completed over the first 2-3 years of the project and will focus on key areas of improvement identified during project planing including:\n\nIncorporating future recruitment rate trends and uncertainty into projections.\nAdjusting stock assessment projections to reflect the compounding uncertainty associated with catch based vs effort based fishing limits.\nQuantifying the potential impact of future episodic Red Tide mortality events on management benchmarks and reference points.\nQuantifying the potential impact of changes in fishery catch limits on discarding rates and incorporating a feedback method to identify optimal catch limits accounting for this impact.",
+    "crumbs": [
+      "Projections",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/projections/Discards.html",
+    "href": "content/projections/Discards.html",
+    "title": "Projections",
+    "section": "",
+    "text": "This simulation analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Projections",
+      "Discard mortality"
+    ]
+  },
+  {
+    "objectID": "content/projections/Discards.html#impacts-of-management-action-on-discarding-rates-and-associated-catch-limits",
+    "href": "content/projections/Discards.html#impacts-of-management-action-on-discarding-rates-and-associated-catch-limits",
+    "title": "Projections",
+    "section": "",
+    "text": "This simulation analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Projections",
+      "Discard mortality"
+    ]
+  },
+  {
+    "objectID": "content/publishing.html",
+    "href": "content/publishing.html",
+    "title": "Publishing",
+    "section": "",
+    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
+  },
+  {
+    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "title": "Publishing",
+    "section": "Turn on GitHub Pages for your repo",
+    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
+  },
+  {
+    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "title": "Publishing",
+    "section": "Do your first publish to gh-pages",
+    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
+  },
+  {
+    "objectID": "content/publishing.html#dont-like-using-gh-pages",
+    "href": "content/publishing.html#dont-like-using-gh-pages",
+    "title": "Publishing",
+    "section": "Don’t like using gh-pages?",
+    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+  },
+  {
+    "objectID": "content/background/timeline_background.html",
+    "href": "content/background/timeline_background.html",
+    "title": "Background",
+    "section": "",
+    "text": "This roadmap has been initially developed to track progress of a NOAA RESTORE funded research project to achieve actionable improvements Gulf of Mexico ecosystem management. This project will for an initial 5 years focus on developing and testing methods to improve uncertainty quantification, accuracy, and throughput of stock assessment advice for fisheries management.\nThe timeline for this project is expected to change as research priorities shift to accommodate the real-time needs of fisheries managers in the Gulf and will be periodically updated to reflect these changes. Research priorities are expected to primarily fall into four research focus areas:\n\nInterim Assessment Methods Development\nStock Assessment Projection Improvement\nModel Interpretation and Uncertainty Quantification\nOptimizing Model Complexity\n\nCurrent Provisional Timeline\n\n\n\n\n\n\n\n\n\n\nResearch Focus Area\nResearch Activity\nPlanned Start Date\nPlanned End Date\n\n\n\n\nInterim Assessment Methods\n- Design hybrid approach and simulation testing plan\nJanuary 2024\nMay 2024\n\n\n\n- Perform simulation testing\nApril 2024\nOctober 2024\n\n\n\n- Report results and facilitate implementation\nAugust 2024\nJuly 2025\n\n\nProjection Methods Improvement\n- Select optimal methods based on management priorities\nOctober 2023\nOngoing\n\n\n\n- Develop simulation testing and implementation software\nMarch 2024\nOngoing\n\n\n\n- Perform simulation testing\nJuly 2024\nOngoing\n\n\n\n- Report results and facilitate implementation\nSeptember 2024\nOngoing\n\n\nModel Interpretation and Uncertainty Quantification\n- Develop model gradient extraction methods\n2024-2025\nTBD\n\n\n\n- Develop ensemble sampling methods for Stock Synthesis\n2025-2026\nTBD\n\n\n\n- Perform simulation testing of methods\n2026-2027\nTBD\n\n\n\n- Report results and facilitate implementation\n2026-2027\nTBD\n\n\nOptimizing Model Complexity\n- Develop software for dynamic assessment approach\n2026-2027\nTBD\n\n\n\n- Develop simulation testing framework\n2027\nTBD\n\n\n\n- Perform simulation testing\n2027-2028\nTBD\n\n\n\n- Report results and facilitate implementation\n2028\nTBD",
+    "crumbs": [
+      "Background",
+      "Timeline"
+    ]
+  },
+  {
+    "objectID": "content/background/timeline_background.html#current-research-plans",
+    "href": "content/background/timeline_background.html#current-research-plans",
+    "title": "Background",
+    "section": "",
+    "text": "This roadmap has been initially developed to track progress of a NOAA RESTORE funded research project to achieve actionable improvements Gulf of Mexico ecosystem management. This project will for an initial 5 years focus on developing and testing methods to improve uncertainty quantification, accuracy, and throughput of stock assessment advice for fisheries management.\nThe timeline for this project is expected to change as research priorities shift to accommodate the real-time needs of fisheries managers in the Gulf and will be periodically updated to reflect these changes. Research priorities are expected to primarily fall into four research focus areas:\n\nInterim Assessment Methods Development\nStock Assessment Projection Improvement\nModel Interpretation and Uncertainty Quantification\nOptimizing Model Complexity\n\nCurrent Provisional Timeline\n\n\n\n\n\n\n\n\n\n\nResearch Focus Area\nResearch Activity\nPlanned Start Date\nPlanned End Date\n\n\n\n\nInterim Assessment Methods\n- Design hybrid approach and simulation testing plan\nJanuary 2024\nMay 2024\n\n\n\n- Perform simulation testing\nApril 2024\nOctober 2024\n\n\n\n- Report results and facilitate implementation\nAugust 2024\nJuly 2025\n\n\nProjection Methods Improvement\n- Select optimal methods based on management priorities\nOctober 2023\nOngoing\n\n\n\n- Develop simulation testing and implementation software\nMarch 2024\nOngoing\n\n\n\n- Perform simulation testing\nJuly 2024\nOngoing\n\n\n\n- Report results and facilitate implementation\nSeptember 2024\nOngoing\n\n\nModel Interpretation and Uncertainty Quantification\n- Develop model gradient extraction methods\n2024-2025\nTBD\n\n\n\n- Develop ensemble sampling methods for Stock Synthesis\n2025-2026\nTBD\n\n\n\n- Perform simulation testing of methods\n2026-2027\nTBD\n\n\n\n- Report results and facilitate implementation\n2026-2027\nTBD\n\n\nOptimizing Model Complexity\n- Develop software for dynamic assessment approach\n2026-2027\nTBD\n\n\n\n- Develop simulation testing framework\n2027\nTBD\n\n\n\n- Perform simulation testing\n2027-2028\nTBD\n\n\n\n- Report results and facilitate implementation\n2028\nTBD",
+    "crumbs": [
+      "Background",
+      "Timeline"
+    ]
+  },
+  {
+    "objectID": "content/interim.html",
+    "href": "content/interim.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project."
+  },
+  {
+    "objectID": "content/interim.html#r-markdown",
+    "href": "content/interim.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "content/interim.html#including-plots",
+    "href": "content/interim.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "content/customizing.html",
+    "href": "content/customizing.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#quarto-documentation",
+    "href": "content/customizing.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#examples",
+    "href": "content/customizing.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
+  },
+  {
+    "objectID": "content/interpretation/data_influence.html",
+    "href": "content/interpretation/data_influence.html",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "This analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Model Interpretation",
+      "Data Influence"
+    ]
+  },
+  {
+    "objectID": "content/interpretation/data_influence.html#quantifying-data-influence",
+    "href": "content/interpretation/data_influence.html#quantifying-data-influence",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "This analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Model Interpretation",
+      "Data Influence"
+    ]
+  },
+  {
+    "objectID": "content/projections.html",
+    "href": "content/projections.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/projections.html#quarto-documentation",
+    "href": "content/projections.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/projections.html#examples",
+    "href": "content/projections.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
+  },
+  {
+    "objectID": "content/add-content.html",
+    "href": "content/add-content.html",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/add-content.html#edit-and-add-your-pages",
+    "href": "content/add-content.html#edit-and-add-your-pages",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/add-content.html#add-your-pages-the-project",
+    "href": "content/add-content.html#add-your-pages-the-project",
+    "title": "Customize",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
+    "objectID": "content/interim/existing.html",
+    "href": "content/interim/existing.html",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "For the purposes of understanding the stock assessment process it can be helpful to separate time into three general periods:\n\nThe historic model estimation period. This is the period used in full benchmark stock assessments to estimate the fishery and population model parameters. These parameters are then used to simulate future states of nature and estimate sustainable fishing limits.\nAn interregnum period. These are years following the benchmark model end year but prior to the current year or first year in which management action could be enacted. Some but usually not all data sources used in the benchmark model may be available for years in this period. When benchmark stock assessments are performed recent catches or estimates of these values in included in this period. This period is usually 2-3 years long at the time a benchmark stock assessment is completed.\nA true projection period. This period includes all future years for which no data are available. Expected conditions in this period are usually assumed to be stationary at estimated average levels from the benchmark stock assessment. The benchmark assessment model is used to simulation population response to fishing pressure in this period to estimate sustainable catch limit targets.\n\n\n\n\nassessment\n\n\nUsing this framework it can be seen that after a benchmark assessment is completed the interregnum period will grow as time passes and new data is collected. Interim assessments are intended to update benchmark assessment catch limit projections using new data. By not re-estimating the benchmark population dynamics model these methods require much less time to produce than a new benchmark assessment.",
+    "crumbs": [
+      "Interim Assessments",
+      "Existing Methods"
+    ]
+  },
+  {
+    "objectID": "content/interim/existing.html#how-do-they-work",
+    "href": "content/interim/existing.html#how-do-they-work",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "For the purposes of understanding the stock assessment process it can be helpful to separate time into three general periods:\n\nThe historic model estimation period. This is the period used in full benchmark stock assessments to estimate the fishery and population model parameters. These parameters are then used to simulate future states of nature and estimate sustainable fishing limits.\nAn interregnum period. These are years following the benchmark model end year but prior to the current year or first year in which management action could be enacted. Some but usually not all data sources used in the benchmark model may be available for years in this period. When benchmark stock assessments are performed recent catches or estimates of these values in included in this period. This period is usually 2-3 years long at the time a benchmark stock assessment is completed.\nA true projection period. This period includes all future years for which no data are available. Expected conditions in this period are usually assumed to be stationary at estimated average levels from the benchmark stock assessment. The benchmark assessment model is used to simulation population response to fishing pressure in this period to estimate sustainable catch limit targets.\n\n\n\n\nassessment\n\n\nUsing this framework it can be seen that after a benchmark assessment is completed the interregnum period will grow as time passes and new data is collected. Interim assessments are intended to update benchmark assessment catch limit projections using new data. By not re-estimating the benchmark population dynamics model these methods require much less time to produce than a new benchmark assessment.",
+    "crumbs": [
+      "Interim Assessments",
+      "Existing Methods"
+    ]
+  },
+  {
+    "objectID": "content/interim/existing.html#projection-updates",
+    "href": "content/interim/existing.html#projection-updates",
+    "title": "Interim Assessments",
+    "section": "Projection updates",
+    "text": "Projection updates\nOne approach to rapidly updating stock assessment advice is integrating updated landings data and recalculating catch projection. This process is identical to performing projections in a benchmark assessment only with an extended interregnum period that includes the additional years of landings data available. This approach is useful when achieved fishery landings diverge from the predicted catch limits estimated in the original benchmark stock assessment. This divergence could be due to final quotas being set at a lower value than the maximum model estimate, a fishery being unable to meet it’s maximum quota, or landings exceeding the target quota before the fishery was closed. Advantages of this approach are it’s simplicity, speed of implementation, and incorporation within existing stock assessment protocols. The primary disadvantage of this method is that it is unable to account for changes in the population due to reasons other than total landings. Given that deviations due to episodic mortality events, climate-induced change, and recruitment variability are of increasing concern this method has recently been replaced in the Gulf by index based approaches.",
+    "crumbs": [
+      "Interim Assessments",
+      "Existing Methods"
+    ]
+  },
+  {
+    "objectID": "content/interim/existing.html#index-based-approaches",
+    "href": "content/interim/existing.html#index-based-approaches",
+    "title": "Interim Assessments",
+    "section": "Index based approaches",
+    "text": "Index based approaches\nIndex based interim assessments approaches are relatively new in the Gulf of Mexico. They are derived from the logic that annual catch limits (\\(ACL_{y}\\)) are calculated from the total biomass availablit to the fishery (\\(B_{y}\\)) multiplied by the constant proportion of that biomass that can be removed each year (\\(F_{target}\\)).\n\\[ACL_{y} = F_{target}*B_{y}\\]\nIf an annual index of relative abundance (\\(I_{y}\\)) is available that is proportional to total available biomass.\n\\[I_{y} = q*B_{y}\\] It is possible to use the catch limit (\\(ACL_{ref}\\)) and index (\\(I_{ref}\\)) values from a reference year together with recent index (\\(I_{y}\\)) to estimate a new catch limit target (\\(ACL_{y+1}\\))\n\\[ACL_{y+1} = C_{ref}*(I_{y}/I_{ref})\\] These approaches are based on research by Huynh et al 2020 that developed and tested these approaches and found them to significantly improve management outcomes relative to status-quo fixed catch limits.\nImplementing these methods in the Gulf of Mexico has been hindered by the need to validate the suitability of potential indices before they can be used. This validation is critical for practical application as the approach assumes that indices reflect an unbiased estimate of total population abundance \\(B_{y}\\). In practice, available abundance indices are often impacted by non-representative gear and spatial selectivity effects. These observations may not track the true total population abundance providing unreliable estimates of sustainable catch limits. These methods also utilize a single index of abundance to update catch advice limiting their utility further in the Gulf where stock assessment models are frequently informed by many indices.\nDue to these limitations we intend to develop a method for quantifying the predictive accuracy and precision of existing indices of abundance for estimating optimum catch limits. We will also assess an approach for integrating multiple indices and update stock assessment projections to provide unified interim management advice.",
+    "crumbs": [
+      "Interim Assessments",
+      "Existing Methods"
+    ]
+  },
+  {
+    "objectID": "content/scalability/overview_scalability.html",
+    "href": "content/scalability/overview_scalability.html",
+    "title": "Scalable models",
+    "section": "",
+    "text": "While maintaining sufficient stock assessment model complexity is critical to accurately determining management benchmarks and OFL/ABC limits, this complexity also increases the time required to develop, review and implement a stock assessment. The increasing complexity of stock assessments in the Gulf limits the throughput of both assessment advice and research and development by assessment scientists at SEFSC. The current throughput of 5+ years between assessments for many species hinders the ability of managers to identify and respond to changes in the fishery or identify the impact of model misspecification. Additionally, data are not incorporated into stock assessments until all sources are available for a given year. This results in a lag of 2-4 years between the last year of data informing the stock assessment and the first year for which management advice is provided. This combination of factors means that management actions such as OFL/ABC can at times be based upon data a decade or more old. To avoid this extreme scenario, alternative approaches are required that increase throughput and improve the quality of management decisions. Developing these approaches to rapidly inform fisheries management following a change can provide substantial value to stakeholders and reduce the risk of population depletion through overfishing. Current rapid methods applied in the Gulf, known as interim assessments, are limited to strictly updating recent landings data or scaling OFL/ABC limits based on changes in a single population abundance index. Neither of these methods re-estimate model parameters or quantify the potential impact re-estimation may have of OFL/ABC estimates. Being unable to incorporate other available data sources such as length and age compositions simultaneously also limits the utility of these methods, particularly in models where these data may be the most reliable information source. For example, an unexpected change in recruitment could be observable in composition data much sooner than an adult index. Incorporating these data and updating the recruitment expectation could remove large errors in outdated OFL/ABC estimates.\nThis project will develop an improved interim assessment method, able to iteratively update data sources as they become available and selectively update parameter estimates as the data suggest they are needed. This approach is designed to combine the strengths and ameliorate the weaknesses of existing full stock assessment and interim assessment approaches. The proposed approach would implement the following procedure:\n\nFirst an initial full stock assessment base model would be developed for the species of interest, the same as a current stock assessment. This would provide foundational parameter estimates and diagnostics using years in which all data sources are available to prevent bias in the model estimates. The model interpretation methods developed in phase two of this project would be used in model development and to identify parameters of note that may require particular attention in interim update years.\nUsing the base model, projections would be used to produce model estimated predictions of all data sources into future years.\nAs data sources become available for each new year, the model end year would be advanced to the most recent year with any data available and the new data added to the model. In order to avoid bias in the new results, the previous base model predictions would be added as observations for all sources not yet available.\nAs new data sources are added, the projections for later years are updated to account for the new observations. Model interpretation methods developed in phase 2 of this project will be applied to identify any significant deviations in parameter estimates suggested by new data sources.\nAs feasible based on the time allotted to a given update, expert judgment or possible rules-based approaches could be used to identify which parameter values should be re-estimated for any given update. If no parameter estimates are updated the resulting advice can be considered closer to an interim-assessment. As more parameter estimates are updated to incorporate new data, the model outputs will more closely match a full assessment.\n\nUsing the diagnostic model interpretation method that will be developed earlier in this project will allow assessment scientists and GMFMC SSC reviewers to make informed judgements regarding when to update model parameter estimates as well as the expected impact this could have. Similar to previous phases above, this project will focus on developing software to implement this newly proposed interim assessment method and perform simulation testing to validate the performance improvement it provides over current interim-based assessment approaches. This phase will be completed over years 4 and 5 of the project with anticipated incorporation into management advice as early as 2028.",
+    "crumbs": [
+      "Scalable Models",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/scalability/overview_scalability.html#overview",
+    "href": "content/scalability/overview_scalability.html#overview",
+    "title": "Scalable models",
+    "section": "",
+    "text": "While maintaining sufficient stock assessment model complexity is critical to accurately determining management benchmarks and OFL/ABC limits, this complexity also increases the time required to develop, review and implement a stock assessment. The increasing complexity of stock assessments in the Gulf limits the throughput of both assessment advice and research and development by assessment scientists at SEFSC. The current throughput of 5+ years between assessments for many species hinders the ability of managers to identify and respond to changes in the fishery or identify the impact of model misspecification. Additionally, data are not incorporated into stock assessments until all sources are available for a given year. This results in a lag of 2-4 years between the last year of data informing the stock assessment and the first year for which management advice is provided. This combination of factors means that management actions such as OFL/ABC can at times be based upon data a decade or more old. To avoid this extreme scenario, alternative approaches are required that increase throughput and improve the quality of management decisions. Developing these approaches to rapidly inform fisheries management following a change can provide substantial value to stakeholders and reduce the risk of population depletion through overfishing. Current rapid methods applied in the Gulf, known as interim assessments, are limited to strictly updating recent landings data or scaling OFL/ABC limits based on changes in a single population abundance index. Neither of these methods re-estimate model parameters or quantify the potential impact re-estimation may have of OFL/ABC estimates. Being unable to incorporate other available data sources such as length and age compositions simultaneously also limits the utility of these methods, particularly in models where these data may be the most reliable information source. For example, an unexpected change in recruitment could be observable in composition data much sooner than an adult index. Incorporating these data and updating the recruitment expectation could remove large errors in outdated OFL/ABC estimates.\nThis project will develop an improved interim assessment method, able to iteratively update data sources as they become available and selectively update parameter estimates as the data suggest they are needed. This approach is designed to combine the strengths and ameliorate the weaknesses of existing full stock assessment and interim assessment approaches. The proposed approach would implement the following procedure:\n\nFirst an initial full stock assessment base model would be developed for the species of interest, the same as a current stock assessment. This would provide foundational parameter estimates and diagnostics using years in which all data sources are available to prevent bias in the model estimates. The model interpretation methods developed in phase two of this project would be used in model development and to identify parameters of note that may require particular attention in interim update years.\nUsing the base model, projections would be used to produce model estimated predictions of all data sources into future years.\nAs data sources become available for each new year, the model end year would be advanced to the most recent year with any data available and the new data added to the model. In order to avoid bias in the new results, the previous base model predictions would be added as observations for all sources not yet available.\nAs new data sources are added, the projections for later years are updated to account for the new observations. Model interpretation methods developed in phase 2 of this project will be applied to identify any significant deviations in parameter estimates suggested by new data sources.\nAs feasible based on the time allotted to a given update, expert judgment or possible rules-based approaches could be used to identify which parameter values should be re-estimated for any given update. If no parameter estimates are updated the resulting advice can be considered closer to an interim-assessment. As more parameter estimates are updated to incorporate new data, the model outputs will more closely match a full assessment.\n\nUsing the diagnostic model interpretation method that will be developed earlier in this project will allow assessment scientists and GMFMC SSC reviewers to make informed judgements regarding when to update model parameter estimates as well as the expected impact this could have. Similar to previous phases above, this project will focus on developing software to implement this newly proposed interim assessment method and perform simulation testing to validate the performance improvement it provides over current interim-based assessment approaches. This phase will be completed over years 4 and 5 of the project with anticipated incorporation into management advice as early as 2028.",
+    "crumbs": [
+      "Scalable Models",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html",
+    "href": "content/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+  },
+  {
+    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
+  },
+  {
+    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
+  },
+  {
+    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
+  },
+  {
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the NMFS Open Science webpage template nmfs-website-template by Eli Holmes which was based on the Openscapes tutorial quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "content/interim/overview_interim.html",
+    "href": "content/interim/overview_interim.html",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "Determining sustainable overfishing limits and acceptable biological catch levels (catch limits) for annual fishery landings are some of the most important natural resource management decisions made that have large economic and social impacts. In the Gulf of Mexico (Gulf), long delays (5+ years) are commonly observed between management updates due to stock assessment complexity, rulemaking timelines, and resource limitations. As a result, catch limits are generally set from short-term projections that assume average biological, ecological, and fishery conditions will prevail indefinitely. However, unpredictable events such as harmful algal blooms, hurricanes, and recruitment fluctuations combined with variability in realized fishery landings can result in a significant divergence of reality from these static assumptions. This can lead to significant overexploitation or underutilization of fisheries resources if not accounted for through timely updates of catch advice. To insure catch limits continue to achieve management objectives during the period between full assessments, interim assessments are used. Interim assessment is a broad term used to describe a variety of simplified approaches to updating catch limits that are intended to be responsive to changing conditions and fast to implement. These methods utilize deterministic rules or projections, similar to harvest control rules, to act on new data inputs without requiring the statistical parameter fitting of a new stock assessment.",
+    "crumbs": [
+      "Interim Assessments",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/interim/overview_interim.html#why-do-we-need-them",
+    "href": "content/interim/overview_interim.html#why-do-we-need-them",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "Determining sustainable overfishing limits and acceptable biological catch levels (catch limits) for annual fishery landings are some of the most important natural resource management decisions made that have large economic and social impacts. In the Gulf of Mexico (Gulf), long delays (5+ years) are commonly observed between management updates due to stock assessment complexity, rulemaking timelines, and resource limitations. As a result, catch limits are generally set from short-term projections that assume average biological, ecological, and fishery conditions will prevail indefinitely. However, unpredictable events such as harmful algal blooms, hurricanes, and recruitment fluctuations combined with variability in realized fishery landings can result in a significant divergence of reality from these static assumptions. This can lead to significant overexploitation or underutilization of fisheries resources if not accounted for through timely updates of catch advice. To insure catch limits continue to achieve management objectives during the period between full assessments, interim assessments are used. Interim assessment is a broad term used to describe a variety of simplified approaches to updating catch limits that are intended to be responsive to changing conditions and fast to implement. These methods utilize deterministic rules or projections, similar to harvest control rules, to act on new data inputs without requiring the statistical parameter fitting of a new stock assessment.",
+    "crumbs": [
+      "Interim Assessments",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/interim/multi_factor.html",
+    "href": "content/interim/multi_factor.html",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "This simulation analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Interim Assessments",
+      "Multi-Factor method"
+    ]
+  },
+  {
+    "objectID": "content/interim/multi_factor.html#a-new-method-combining-multiple-data-sources",
+    "href": "content/interim/multi_factor.html#a-new-method-combining-multiple-data-sources",
+    "title": "Interim Assessments",
+    "section": "",
+    "text": "This simulation analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Interim Assessments",
+      "Multi-Factor method"
+    ]
+  },
+  {
+    "objectID": "content/rmarkdown.html",
+    "href": "content/rmarkdown.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project."
+  },
+  {
+    "objectID": "content/rmarkdown.html#r-markdown",
+    "href": "content/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "content/rmarkdown.html#including-plots",
+    "href": "content/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "content/interpretation/overview_interpretation.html",
+    "href": "content/interpretation/overview_interpretation.html",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "Developing stock assessment models for management in the Gulf presents significant challenges for assessment scientists. Complex models are frequently required to accurately represent the large spatial extent of Gulf fisheries, the diverse array of fleets operating, and changes in management through time. However, the data available are generally insufficient to inform stock assessment parameter estimation at this necessary level of complexity without fixed assumptions being made. Because of this, a large part of assessment scientists’ responsibility when developing stock assessment models is to define the structural model form and decide which parameters to estimate. This can be considered the “art” of stock assessment modeling and requires using expert judgment to make sometimes subjective structural decisions such as delineating fleets and spatial areas, choosing the mathematical forms of fleet selectivity patterns, specifying time periods to allow changes in parameters values, and choosing which parameters to fix in the model and what values they should take. In the Gulf, these fixed decisions are believed to conceal a large proportion of the total uncertainty in model outputs and may bias mean estimates, though the exact impacts are not well understood.\nQuantifying this concealed uncertainty could significantly improve the accuracy of OFL and ABC estimates, reduce inter-assessment estimate variability, and improve management outcomes in the Gulf. Research planning discussions identified two candidate methods for simulation testing that may be adaptable to the Gulf to quantify some of these hidden uncertainties:\n\nStock assessment models produced in the South Atlantic utilize a Monte-Carlo Bootstrap Ensemble (MCBE) approach to quantify uncertainty in benchmarks, current status, and quota limits OFL/ABC. This approach incorporates uncertainty in select fixed model parameters, such as natural mortality and stock recruitment curve steepness, based on external estimates or expert judgment. This uncertainty is used to produce several thousand bootstrapped random samples of these values along with resampled values for all data inputs, which can also include late phase recruitment deviations. Each of these random sample sets are then used to re-estimate the stock assessment model and produce more realistic confidence intervals for output values such as OFL and ABC. However, this method requires significant computing resources even for relatively simple assessment models and only addresses a limited subset of fixed parameter uncertainty sources. This approach does not incorporate structural uncertainty in model form, and requires more research to develop model weighting approaches beyond the currently used even weighting.\nStock assessment models produced for highly migratory tunas and sharks utilize a Multivariate Normal Ensemble (MVNE) approach to quantify uncertainty in benchmarks and quota limits OFL/ABC. The MVNE method is also intended to account for structural uncertainty that derives from fixed parameter assumptions similarly to the MCBE method above. The MVNE approach uses a grid approach with 3-5 proposed values for each parameter spanning the expected possible range. For each combination of values, a new assessment model is produced and full diagnostics are produced, which contrasts with MCBE simulations that are not diagnosed beyond confirming parameter estimate convergence. The MVNE approach exchanges MCBE’s computational overhead for analyst diagnostic time. While also relatively simple as currently used, the MVNE approach could be adapted to incorporate true structural differences between each ensemble member though at additional diagnostic effort.\n\nEach of these methods will be simulation tested for use in the Gulf as part of this project. However, a significant limitation that both share is that they are only useful for incorporating known sources of fixed parameter uncertainty. Neither method provides any guidance to assessment scientists regarding how to select uncertainty sources and which assumptions of a model may be least supported or influential in the final OFL and ABC advice. In light of this, an anticipated hurdle to applying either of these methods in the Gulf is the brittle structure of many of the existing stock assessment models. Many of the structural assumptions necessary to fit observed data patterns are co-dependent such that changing any fixed parameter value or other assumption often requires many other changes to obtain stable estimates of model parameters. This brittle structure is an undesirable feature of current Gulf assessments, though it is currently considered unavoidable given the known complexity of regional fisheries and limited data available. Given the complex nature of interdependencies in stock assessment models it is often difficult and time consuming for experienced stock assessment scientists to develop stable model structures. Extensive trial and error of candidate models, using expert judgment to make each modification, is often required before a final stable model is ready for review. This trial-and-error approach to model development already limits throughput of current stock assessments and is not feasible within an ensemble modeling framework. For these reasons, improving model interpretability was identified as a key research development that would enable the adoption of ensemble-modeling approaches needed in the Gulf.\nThe current best practices for understanding data influences in stock assessment are parameter profile analysis, which quantifies the estimability of a parameter, the precision of its estimate, and the influences on this estimate from broad classes of observed data (i.e. catch data, CPUE index data, and population composition data), and model retrospective analyses, which quantify changes in model predictions when removing years of data. These methods require the stock assessment to be re-estimated many times, making these analyses extremely time consuming and often infeasible for each candidate model. Parameter profiling is often used to identify model misspecification, which occurs when the parameter is poorly estimated or its estimated value is due to two conflicting data sources supporting very different estimates. Retrospective analyses are used to identify unstable models in which results change significantly year to year based on the addition of new data. Each of these methods can identify that a problem exists in a model but provide little guidance towards the source of the misspecification.\nTo improve upon these methods, we propose development and testing of a novel approach for quantifying the influence of individual observed data points on the estimates of each model parameter. This will be achieved by quantifying the datum specific model gradient and second-order derivative components for each model parameter simultaneously. This can be achieved without re-estimating the model by utilizing the same automatic differentiation mechanics already used for stock assessment parameter fitting. Avoiding re-estimating the model will make this approach significantly faster, allowing it to be used more frequently to guide model development. In this approach, model parameter estimates will be bounded at the zero total gradient global optimum estimate and then independent gradients and second-derivatives will be calculated with respect to each individual data point. This approach will allow the results to be inspected:\n\nIndividually to identify potential outliers or data errors for additional QA/QC\nBy data source, similar to parameter profiling though for all model parameters and data sets\nBy year to identify temporal trends and changes in parameters to specify breaks or inform environmental co-variate correlations.\n\nThis approach will provide unprecedented interpretability of model dynamics, significantly increase the speed of model development, and potentially enable future development of automated model building procedures. In addition to speeding up the stock assessment process, understanding temporal residuals in parameter estimates will enable assessment scientists to produce more robust models by quantifying parameter stability and identifying informative and conflicting data sources. For this phase of the project, the team will develop software to automate calculation of the newly proposed gradient diagnostics and interpret the results. The utility of these diagnostics for informing structural model development will then be simulation tested using the same approach as phase 1. Once validated, the method will be tested with the two candidate ensemble modeling approaches to verify their suitability for application in the Gulf. This phase is expected to span years 2-4 of the project with the potential to inform stock assessment development for a yet to be determined research track assessment as early as 2026 with the specific species being dependent on the finalized SEDAR calendar.",
+    "crumbs": [
+      "Model Interpretation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/interpretation/overview_interpretation.html#overview",
+    "href": "content/interpretation/overview_interpretation.html#overview",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "Developing stock assessment models for management in the Gulf presents significant challenges for assessment scientists. Complex models are frequently required to accurately represent the large spatial extent of Gulf fisheries, the diverse array of fleets operating, and changes in management through time. However, the data available are generally insufficient to inform stock assessment parameter estimation at this necessary level of complexity without fixed assumptions being made. Because of this, a large part of assessment scientists’ responsibility when developing stock assessment models is to define the structural model form and decide which parameters to estimate. This can be considered the “art” of stock assessment modeling and requires using expert judgment to make sometimes subjective structural decisions such as delineating fleets and spatial areas, choosing the mathematical forms of fleet selectivity patterns, specifying time periods to allow changes in parameters values, and choosing which parameters to fix in the model and what values they should take. In the Gulf, these fixed decisions are believed to conceal a large proportion of the total uncertainty in model outputs and may bias mean estimates, though the exact impacts are not well understood.\nQuantifying this concealed uncertainty could significantly improve the accuracy of OFL and ABC estimates, reduce inter-assessment estimate variability, and improve management outcomes in the Gulf. Research planning discussions identified two candidate methods for simulation testing that may be adaptable to the Gulf to quantify some of these hidden uncertainties:\n\nStock assessment models produced in the South Atlantic utilize a Monte-Carlo Bootstrap Ensemble (MCBE) approach to quantify uncertainty in benchmarks, current status, and quota limits OFL/ABC. This approach incorporates uncertainty in select fixed model parameters, such as natural mortality and stock recruitment curve steepness, based on external estimates or expert judgment. This uncertainty is used to produce several thousand bootstrapped random samples of these values along with resampled values for all data inputs, which can also include late phase recruitment deviations. Each of these random sample sets are then used to re-estimate the stock assessment model and produce more realistic confidence intervals for output values such as OFL and ABC. However, this method requires significant computing resources even for relatively simple assessment models and only addresses a limited subset of fixed parameter uncertainty sources. This approach does not incorporate structural uncertainty in model form, and requires more research to develop model weighting approaches beyond the currently used even weighting.\nStock assessment models produced for highly migratory tunas and sharks utilize a Multivariate Normal Ensemble (MVNE) approach to quantify uncertainty in benchmarks and quota limits OFL/ABC. The MVNE method is also intended to account for structural uncertainty that derives from fixed parameter assumptions similarly to the MCBE method above. The MVNE approach uses a grid approach with 3-5 proposed values for each parameter spanning the expected possible range. For each combination of values, a new assessment model is produced and full diagnostics are produced, which contrasts with MCBE simulations that are not diagnosed beyond confirming parameter estimate convergence. The MVNE approach exchanges MCBE’s computational overhead for analyst diagnostic time. While also relatively simple as currently used, the MVNE approach could be adapted to incorporate true structural differences between each ensemble member though at additional diagnostic effort.\n\nEach of these methods will be simulation tested for use in the Gulf as part of this project. However, a significant limitation that both share is that they are only useful for incorporating known sources of fixed parameter uncertainty. Neither method provides any guidance to assessment scientists regarding how to select uncertainty sources and which assumptions of a model may be least supported or influential in the final OFL and ABC advice. In light of this, an anticipated hurdle to applying either of these methods in the Gulf is the brittle structure of many of the existing stock assessment models. Many of the structural assumptions necessary to fit observed data patterns are co-dependent such that changing any fixed parameter value or other assumption often requires many other changes to obtain stable estimates of model parameters. This brittle structure is an undesirable feature of current Gulf assessments, though it is currently considered unavoidable given the known complexity of regional fisheries and limited data available. Given the complex nature of interdependencies in stock assessment models it is often difficult and time consuming for experienced stock assessment scientists to develop stable model structures. Extensive trial and error of candidate models, using expert judgment to make each modification, is often required before a final stable model is ready for review. This trial-and-error approach to model development already limits throughput of current stock assessments and is not feasible within an ensemble modeling framework. For these reasons, improving model interpretability was identified as a key research development that would enable the adoption of ensemble-modeling approaches needed in the Gulf.\nThe current best practices for understanding data influences in stock assessment are parameter profile analysis, which quantifies the estimability of a parameter, the precision of its estimate, and the influences on this estimate from broad classes of observed data (i.e. catch data, CPUE index data, and population composition data), and model retrospective analyses, which quantify changes in model predictions when removing years of data. These methods require the stock assessment to be re-estimated many times, making these analyses extremely time consuming and often infeasible for each candidate model. Parameter profiling is often used to identify model misspecification, which occurs when the parameter is poorly estimated or its estimated value is due to two conflicting data sources supporting very different estimates. Retrospective analyses are used to identify unstable models in which results change significantly year to year based on the addition of new data. Each of these methods can identify that a problem exists in a model but provide little guidance towards the source of the misspecification.\nTo improve upon these methods, we propose development and testing of a novel approach for quantifying the influence of individual observed data points on the estimates of each model parameter. This will be achieved by quantifying the datum specific model gradient and second-order derivative components for each model parameter simultaneously. This can be achieved without re-estimating the model by utilizing the same automatic differentiation mechanics already used for stock assessment parameter fitting. Avoiding re-estimating the model will make this approach significantly faster, allowing it to be used more frequently to guide model development. In this approach, model parameter estimates will be bounded at the zero total gradient global optimum estimate and then independent gradients and second-derivatives will be calculated with respect to each individual data point. This approach will allow the results to be inspected:\n\nIndividually to identify potential outliers or data errors for additional QA/QC\nBy data source, similar to parameter profiling though for all model parameters and data sets\nBy year to identify temporal trends and changes in parameters to specify breaks or inform environmental co-variate correlations.\n\nThis approach will provide unprecedented interpretability of model dynamics, significantly increase the speed of model development, and potentially enable future development of automated model building procedures. In addition to speeding up the stock assessment process, understanding temporal residuals in parameter estimates will enable assessment scientists to produce more robust models by quantifying parameter stability and identifying informative and conflicting data sources. For this phase of the project, the team will develop software to automate calculation of the newly proposed gradient diagnostics and interpret the results. The utility of these diagnostics for informing structural model development will then be simulation tested using the same approach as phase 1. Once validated, the method will be tested with the two candidate ensemble modeling approaches to verify their suitability for application in the Gulf. This phase is expected to span years 2-4 of the project with the potential to inform stock assessment development for a yet to be determined research track assessment as early as 2026 with the specific species being dependent on the finalized SEDAR calendar.",
+    "crumbs": [
+      "Model Interpretation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/interpretation/model_uncertainty.html",
+    "href": "content/interpretation/model_uncertainty.html",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "This analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Model Interpretation",
+      "Model Uncertainty"
+    ]
+  },
+  {
+    "objectID": "content/interpretation/model_uncertainty.html#quantifying-scientific-uncertainty",
+    "href": "content/interpretation/model_uncertainty.html#quantifying-scientific-uncertainty",
+    "title": "Model interpretation",
+    "section": "",
+    "text": "This analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.",
+    "crumbs": [
+      "Model Interpretation",
+      "Model Uncertainty"
+    ]
+  },
+  {
+    "objectID": "content/code.html",
+    "href": "content/code.html",
+    "title": "Rendering with Code",
+    "section": "",
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+  },
+  {
+    "objectID": "content/code.html#modify-the-github-action",
+    "href": "content/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+  },
+  {
+    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+  },
+  {
+    "objectID": "content/background/overview_background.html",
+    "href": "content/background/overview_background.html",
+    "title": "Background",
+    "section": "",
+    "text": "Determining sustainable overfishing and acceptable biological catch limits (OFL’s & ABC’s) for annual fishery landings is one of the most important natural resource management decisions made in the Gulf of Mexico (Gulf). Annual OFL and ABC determinations must be made for all harvested species subject to a fishery management plan, as mandated by the Magnuson-Stevens Fishery Conservation and Management Act. These limits are intended to maximize the value of a fishery each year without harvesting so much that the future productivity of the fishery is diminished due to a depleted spawning stock biomass.\nIn the Gulf, OFL’s are defined as the estimated landings with a fifty percent probability of being less than the maximum fishing rate that can sustain the target population biomass benchmark. ABC’s are a precautionary limit less than or equal to the OFL designed to account for scientific uncertainty in the OFL estimate. These limits are set based on the outputs of stock assessment models developed by fisheries scientists at NOAA’s Southeast Fisheries Science Center (SEFSC) and the Florida Fish and Wildlife Conservation Commission (FWC) which are reviewed and approved as suitable for management by the Scientific and Statistical Committee (SSC) of the Gulf of Mexico Fishery Management Council (GMFMC). Successful fishery management in the Gulf is dependent upon stock assessment advice providing accurate OFL and ABC estimates. NOAA SEFSC catch limit monitoring FAQ for additional details.\nThe stock assessment process used to define OFL and ABC limits broadly consists of two primary parts:\n\nA historic estimation period in which model parameter values are estimated based on an assumed model structure and the fit of the predicted model to observed data values.\nA projection period in which OFL and ABC fishing effort limits are estimated based on assumptions regarding future population and fishery conditions and sustainable stock status targets.\n\nStock assessment methods have been continuously improved for over 100 years since the first fishery dynamic models were developed. Improvements in quantitative techniques and available computing power have led most research efforts to focus on the development and use of increasingly complex stock assessment modeling software models, such as stock synthesis (SS) used in the Gulf, for fisheries management. This has increased the capacity for stock assessment models to capture ever finer details of the fishery and population dynamics relevant to management. This is particularly important in Gulf fisheries, that often exhibit:\n\nDiverse commercial, for-hire, and recreational fishing fleets with distinct selectivity patterns, regional distributions, and priorities for what constitutes successful management outcomes (e.g., more fish or more days to fish).\nDynamic regulatory histories with a variety of catch/size/bag/trip limits and area/seasonal closures that vary through time and by fleet, region, and jurisdiction (federal vs state).\nAn inherently multi-species fishery where effort and selectivity towards one species may be significantly impacted by management decisions for other co-harvested species.\n\nHowever, no aspect of stock assessment modeling comes without trade offs. The narrow focus of historic research and development effort on increasing model complexity, and a strong reliance on model fit to historic data as a primary metric of model performance, has resulted in many challenges including:\n\nIncreased data processing and model development times, resulting in stock assessments being completed only once every 3-5 years for most species with a lag of 2-3 years between the last year of data in the model and the first year in which the results can be used for management. This delay reduces the accuracy of management advice and limits the ability of managers to make informed decisions in response to changes in the fishery, such as following or during a red tide bloom or cold snap.\nThe complexity of current stock assessments makes the results difficult to interpret, review, and diagnose for potential errors. Focusing model performance metrics on historic fits can also produce overfit models that are sensitive to new data inputs and produce volatile benchmark estimates from assessment to assessment. These limitations can hinder the incorporation of additional data sources such as environmental co-variates due to difficulty identifying the key processes they may be influencing. Volatile results can also lead to low trust in model results and subsequent regulatory action by stakeholders, reducing the effectiveness of management due to poor compliance.\nThe many decisions made when producing stock assessment projections have significant impacts on final stock status benchmarks and OFL/ABC estimates. These impacts are in general poorly understood and often overlooked in the decision-making process. The dearth of research into projection best practices, particularly in multi-fleet fisheries such as the Gulf, provides little guidance for managers tasked with making these decisions. This often leads to simple default choices being made that may not reflect true future conditions. This is particularly problematic when management advice is updated infrequently, which is currently the status quo for many stocks in the Gulf.\n\nThis roadmap will track research efforts to develop new methods and technological capacity to increase the accuracy of projection assumptions, improve transparency in the impact of structural assumptions made in model development, and increase the throughput of stock assessment models to improve the accuracy of management advice under changing environmental conditions. These advancements will increase the accuracy and better capture the uncertainties of OFL and ABC estimates resulting in improved fishery management outcomes in the Gulf.",
+    "crumbs": [
+      "Background",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/background/overview_background.html#initial-project-motivation",
+    "href": "content/background/overview_background.html#initial-project-motivation",
+    "title": "Background",
+    "section": "",
+    "text": "Determining sustainable overfishing and acceptable biological catch limits (OFL’s & ABC’s) for annual fishery landings is one of the most important natural resource management decisions made in the Gulf of Mexico (Gulf). Annual OFL and ABC determinations must be made for all harvested species subject to a fishery management plan, as mandated by the Magnuson-Stevens Fishery Conservation and Management Act. These limits are intended to maximize the value of a fishery each year without harvesting so much that the future productivity of the fishery is diminished due to a depleted spawning stock biomass.\nIn the Gulf, OFL’s are defined as the estimated landings with a fifty percent probability of being less than the maximum fishing rate that can sustain the target population biomass benchmark. ABC’s are a precautionary limit less than or equal to the OFL designed to account for scientific uncertainty in the OFL estimate. These limits are set based on the outputs of stock assessment models developed by fisheries scientists at NOAA’s Southeast Fisheries Science Center (SEFSC) and the Florida Fish and Wildlife Conservation Commission (FWC) which are reviewed and approved as suitable for management by the Scientific and Statistical Committee (SSC) of the Gulf of Mexico Fishery Management Council (GMFMC). Successful fishery management in the Gulf is dependent upon stock assessment advice providing accurate OFL and ABC estimates. NOAA SEFSC catch limit monitoring FAQ for additional details.\nThe stock assessment process used to define OFL and ABC limits broadly consists of two primary parts:\n\nA historic estimation period in which model parameter values are estimated based on an assumed model structure and the fit of the predicted model to observed data values.\nA projection period in which OFL and ABC fishing effort limits are estimated based on assumptions regarding future population and fishery conditions and sustainable stock status targets.\n\nStock assessment methods have been continuously improved for over 100 years since the first fishery dynamic models were developed. Improvements in quantitative techniques and available computing power have led most research efforts to focus on the development and use of increasingly complex stock assessment modeling software models, such as stock synthesis (SS) used in the Gulf, for fisheries management. This has increased the capacity for stock assessment models to capture ever finer details of the fishery and population dynamics relevant to management. This is particularly important in Gulf fisheries, that often exhibit:\n\nDiverse commercial, for-hire, and recreational fishing fleets with distinct selectivity patterns, regional distributions, and priorities for what constitutes successful management outcomes (e.g., more fish or more days to fish).\nDynamic regulatory histories with a variety of catch/size/bag/trip limits and area/seasonal closures that vary through time and by fleet, region, and jurisdiction (federal vs state).\nAn inherently multi-species fishery where effort and selectivity towards one species may be significantly impacted by management decisions for other co-harvested species.\n\nHowever, no aspect of stock assessment modeling comes without trade offs. The narrow focus of historic research and development effort on increasing model complexity, and a strong reliance on model fit to historic data as a primary metric of model performance, has resulted in many challenges including:\n\nIncreased data processing and model development times, resulting in stock assessments being completed only once every 3-5 years for most species with a lag of 2-3 years between the last year of data in the model and the first year in which the results can be used for management. This delay reduces the accuracy of management advice and limits the ability of managers to make informed decisions in response to changes in the fishery, such as following or during a red tide bloom or cold snap.\nThe complexity of current stock assessments makes the results difficult to interpret, review, and diagnose for potential errors. Focusing model performance metrics on historic fits can also produce overfit models that are sensitive to new data inputs and produce volatile benchmark estimates from assessment to assessment. These limitations can hinder the incorporation of additional data sources such as environmental co-variates due to difficulty identifying the key processes they may be influencing. Volatile results can also lead to low trust in model results and subsequent regulatory action by stakeholders, reducing the effectiveness of management due to poor compliance.\nThe many decisions made when producing stock assessment projections have significant impacts on final stock status benchmarks and OFL/ABC estimates. These impacts are in general poorly understood and often overlooked in the decision-making process. The dearth of research into projection best practices, particularly in multi-fleet fisheries such as the Gulf, provides little guidance for managers tasked with making these decisions. This often leads to simple default choices being made that may not reflect true future conditions. This is particularly problematic when management advice is updated infrequently, which is currently the status quo for many stocks in the Gulf.\n\nThis roadmap will track research efforts to develop new methods and technological capacity to increase the accuracy of projection assumptions, improve transparency in the impact of structural assumptions made in model development, and increase the throughput of stock assessment models to improve the accuracy of management advice under changing environmental conditions. These advancements will increase the accuracy and better capture the uncertainties of OFL and ABC estimates resulting in improved fishery management outcomes in the Gulf.",
+    "crumbs": [
+      "Background",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/interpretation.html",
+    "href": "content/interpretation.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+  },
+  {
+    "objectID": "content/interpretation.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/interpretation.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
+  },
+  {
+    "objectID": "content/interpretation.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/interpretation.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
+  },
+  {
+    "objectID": "content/interpretation.html#step-3.-render-within-rstudio",
+    "href": "content/interpretation.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
+  },
+  {
+    "objectID": "content/projections/Recruitment.html",
+    "href": "content/projections/Recruitment.html",
+    "title": "Projections",
+    "section": "",
+    "text": "One important need identified during scoping was an improvement in the handling of recruitment estimation and uncertainty in both the future projection period and the final years of the stock assessment model (late phase recruitments). Within the historic model period recruitment is modeled as following an empirical stock recruitment curve with annual random deviations. In the late phase period this stock recruitment curve or alternate methods such as a recent average can be used. These decisions can have large impacts on current stock status (overfishing and/or overfished determinations), benchmark, and OFL/ABC estimates. Accurately estimating current status and benchmarks in addition to OFL/ABC are aspects of fisheries management with critical importance to fishery stakeholders. Delayed identification of overfishing can compound its impact and increase the likelihood that the fishery may become overfished. Determining that a fishery is overfished can then require rebuilding plans and other accountability measures to be implemented. These measures inevitably impose large reductions in future landings through OFL/ABC reductions and can cause significant financial hardship for stakeholders. For this reason, improving the accuracy of management should always improve long term outcomes for stakeholders even in cases where short term yields are reduced.\nA range of candidate late phase recruitment methods will be simulation tested to identify an optimal method for incorporation into management best practices. Candidate approaches for implementing late phase recruitment include:\n\nFixing recruitment at the mean estimate for recent years (current Gulf method).\nFixing recruitment at the stock recruitment curve estimate (current Gulf method).\nFixing recruitment deviations at the mean estimate for recent years (new method).\nUsing bootstrap resampling around the stock recruitment curve with variance estimated from the range of historic recruitment deviations (current South Atlantic method).\nEstimating recruitment using an artificial late phase recruitment index with mean and variance calculated the same as the South Atlantic method (new method).",
+    "crumbs": [
+      "Projections",
+      "Recruitment uncertainty"
+    ]
+  },
+  {
+    "objectID": "content/projections/Recruitment.html#uncertainty-in-short-and-long-term-recruitment-trends-and-variability",
+    "href": "content/projections/Recruitment.html#uncertainty-in-short-and-long-term-recruitment-trends-and-variability",
+    "title": "Projections",
+    "section": "",
+    "text": "One important need identified during scoping was an improvement in the handling of recruitment estimation and uncertainty in both the future projection period and the final years of the stock assessment model (late phase recruitments). Within the historic model period recruitment is modeled as following an empirical stock recruitment curve with annual random deviations. In the late phase period this stock recruitment curve or alternate methods such as a recent average can be used. These decisions can have large impacts on current stock status (overfishing and/or overfished determinations), benchmark, and OFL/ABC estimates. Accurately estimating current status and benchmarks in addition to OFL/ABC are aspects of fisheries management with critical importance to fishery stakeholders. Delayed identification of overfishing can compound its impact and increase the likelihood that the fishery may become overfished. Determining that a fishery is overfished can then require rebuilding plans and other accountability measures to be implemented. These measures inevitably impose large reductions in future landings through OFL/ABC reductions and can cause significant financial hardship for stakeholders. For this reason, improving the accuracy of management should always improve long term outcomes for stakeholders even in cases where short term yields are reduced.\nA range of candidate late phase recruitment methods will be simulation tested to identify an optimal method for incorporation into management best practices. Candidate approaches for implementing late phase recruitment include:\n\nFixing recruitment at the mean estimate for recent years (current Gulf method).\nFixing recruitment at the stock recruitment curve estimate (current Gulf method).\nFixing recruitment deviations at the mean estimate for recent years (new method).\nUsing bootstrap resampling around the stock recruitment curve with variance estimated from the range of historic recruitment deviations (current South Atlantic method).\nEstimating recruitment using an artificial late phase recruitment index with mean and variance calculated the same as the South Atlantic method (new method).",
+    "crumbs": [
+      "Projections",
+      "Recruitment uncertainty"
+    ]
+  },
+  {
+    "objectID": "content/projections/Red_tide.html",
+    "href": "content/projections/Red_tide.html",
+    "title": "Projections",
+    "section": "",
+    "text": "A primary challenge facing stock assessment science is how to establish biological reference points when ecosystems are undergoing change. Estimating accurate biological reference points is critical to successful management of fisheries through annual catch limits. While the impacts of regulated fishery fleets and by-catch fleets are routinely incorporated into the calculation of reference points, environmentally induced episodic mortality has not to date been addressed in the Gulf. Given that recent stock assessments in the Gulf have observed mortality rates as high as 40% of estimated population abundance due to Red Tide it is critical that the potential impact of these unpredictable events is incorporated into stock assessment reference points and stock rebuilding timelines. To address these concerns we intend to develop a simulation study to quantify the potential long term impacts of Red Tide induced mortality on stock assessment reference points and sustainable catch limits. This analysis is current in development and simulation details and a code GitHub code repository will added here once available.",
+    "crumbs": [
+      "Projections",
+      "Episodic mortality"
+    ]
+  },
+  {
+    "objectID": "content/projections/Red_tide.html#impacts-of-episodic-red-tide-mortality-on-management-benchmarks",
+    "href": "content/projections/Red_tide.html#impacts-of-episodic-red-tide-mortality-on-management-benchmarks",
+    "title": "Projections",
+    "section": "",
+    "text": "A primary challenge facing stock assessment science is how to establish biological reference points when ecosystems are undergoing change. Estimating accurate biological reference points is critical to successful management of fisheries through annual catch limits. While the impacts of regulated fishery fleets and by-catch fleets are routinely incorporated into the calculation of reference points, environmentally induced episodic mortality has not to date been addressed in the Gulf. Given that recent stock assessments in the Gulf have observed mortality rates as high as 40% of estimated population abundance due to Red Tide it is critical that the potential impact of these unpredictable events is incorporated into stock assessment reference points and stock rebuilding timelines. To address these concerns we intend to develop a simulation study to quantify the potential long term impacts of Red Tide induced mortality on stock assessment reference points and sustainable catch limits. This analysis is current in development and simulation details and a code GitHub code repository will added here once available.",
+    "crumbs": [
+      "Projections",
+      "Episodic mortality"
+    ]
+  },
+  {
+    "objectID": "content/projections/Catch_limits.html",
+    "href": "content/projections/Catch_limits.html",
+    "title": "Projections",
+    "section": "",
+    "text": "The compounding impact of catch based management on over fishing limits is not accounted for in current projection approaches that specify fixed annual fishing mortality rates (F) to achieve OFL targets and calculate ABC using the model estimated uncertainty in the annual catch achieved at the specified F. The impact of this is to underestimate uncertainty in sustainable yield and overestimate long term ABC targets. This can cause unrealistic expectations for future yields and negatively impact stakeholder trust when they are continually not achieved. In order to better incorporate true catch-based management we will develop and test candidate methods that specify fixed annual catches to achieve OFL targets and calculate ABC by combining the uncertainties in the OFL F rates estimated to achieve population biomass targets.",
+    "crumbs": [
+      "Projections",
+      "Catch based management"
+    ]
+  },
+  {
+    "objectID": "content/projections/Catch_limits.html#accounting-for-catch-based-managment-limits",
+    "href": "content/projections/Catch_limits.html#accounting-for-catch-based-managment-limits",
+    "title": "Projections",
+    "section": "",
+    "text": "The compounding impact of catch based management on over fishing limits is not accounted for in current projection approaches that specify fixed annual fishing mortality rates (F) to achieve OFL targets and calculate ABC using the model estimated uncertainty in the annual catch achieved at the specified F. The impact of this is to underestimate uncertainty in sustainable yield and overestimate long term ABC targets. This can cause unrealistic expectations for future yields and negatively impact stakeholder trust when they are continually not achieved. In order to better incorporate true catch-based management we will develop and test candidate methods that specify fixed annual catches to achieve OFL targets and calculate ABC by combining the uncertainties in the OFL F rates estimated to achieve population biomass targets.",
+    "crumbs": [
+      "Projections",
+      "Catch based management"
+    ]
+  }
+]

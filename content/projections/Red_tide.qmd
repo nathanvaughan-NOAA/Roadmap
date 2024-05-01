@@ -1,7 +1,0 @@
----
-title: Projections
----
-
-## Impacts of episodic Red Tide mortality on management benchmarks
-
-A primary challenge facing stock assessment science is how to establish biological reference points when ecosystems are undergoing change. Estimating accurate biological reference points is critical to successful management of fisheries through annual catch limits. While the impacts of regulated fishery fleets and by-catch fleets are routinely incorporated into the calculation of reference points, environmentally induced episodic mortality has not to date been addressed in the Gulf. Given that recent stock assessments in the Gulf have observed mortality rates as high as 40% of estimated population abundance due to Red Tide it is critical that the potential impact of these unpredictable events is incorporated into stock assessment reference points and stock rebuilding timelines. To address these concerns we intend to develop a simulation study to quantify the potential long term impacts of Red Tide induced mortality on stock assessment reference points and sustainable catch limits. This analysis is current in development and simulation details and a code GitHub code repository will added here once available.          

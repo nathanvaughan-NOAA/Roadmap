@@ -1,7 +1,0 @@
----
-title: Projections
----
-
-## Impacts of management action on discarding rates and associated catch limits
-
-This simulation analysis is in development. This page will be updated with an outline of the analysis design and a link to the github code repository once available.
